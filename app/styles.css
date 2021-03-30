@@ -1,0 +1,166 @@
+
+.trainImg {
+    width: 100%;
+    background: transparent url('images/train.png') no-repeat;
+    background-size: cover;
+} 
+
+.navbar{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    padding-bottom: -30px;
+}
+
+.blueBg{
+    background: #134C8B;
+    color: white;
+}
+
+main{
+    height: 100vh;
+}
+
+section{
+    height: calc(100vh - 90px);
+    display: flex;
+}
+
+.title{
+    font-size: 2.5em;
+}
+
+.logo{
+    font-size: 2em;
+}
+
+.sidebar{
+    background: #134C8B;
+    height: 100%;
+    width: 200px;
+    color: white;
+}
+
+.sidebar .main{
+    height: 90%;
+}
+
+.sidebar .main dt{
+    padding: 10px 30px;
+}
+
+.main dt:hover{
+    background: #FFFFFF33;
+}
+
+.MuiTableHead-root{
+    background: #F4F6F9;
+}
+
+.eyeImg{
+    width: 20px;
+}
+
+.MuiTableContainer-root{
+    padding: 0 20px 0 20px;
+    border: 1px solid #DEDEDE;
+    margin: 50px;
+    border-radius: none !important;
+}
+
+.spaceB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.w20{
+    width: 30px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.customPagination{
+    display: flex;
+    width: 202px;
+}
+
+.same{
+    padding: 10px;
+}
+
+.prevNext, .customPagination{
+    border: 1px solid #DEDEDE;
+}
+
+.w100{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.active{
+    background: #134C8B;
+    color: white;
+    border-radius: 50%;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.login{
+    background: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 50px 50px;
+    width: 374px;
+    height: 355px;
+    box-shadow: 5px 5px 10px #00000029;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    top: 185px;
+    left: 185px;
+}
+
+.login h1{
+    color: #0082BE;
+    font-size: 24px;
+    text-align: center;
+}
+
+.loginBtn{
+    background: #0082BE !important;   
+    width: 100%;
+    color: white !important; 
+    text-decoration: none !important;
+}
+
+.w95{
+    width: 95%;
+}
+
+.flr{
+    float: right;
+}
+
+.blueDiv{
+    height: 100vh;
+    width: 30px;
+    background: #0082BE;
+}
+
+.df{
+    display: flex;
+}
+
+.jcsb{
+    justify-content: space-between;
+}
